@@ -1,0 +1,35 @@
+O que são os dados?
+Dados são fatos que podem ser quantitativo ou qualitativo e precisam ser tratados para se tornarem Informações
+são armazenados em Database 
+
+Banco de dados são diferentes de SGBD (Sistema de Gerenciamento de Banco de Dados)
+
+Banco de dados são uma coleção de palavras que constiue um BD
+
+Os SGBD trazem a restrição de acesso aos dados e toda empresa precisa
+Gerenciar os dados, definição, construção, manipulação, compartilhamento 
+as solicitações são realizadas vias Queries ( ex.Update, Delete, Select, Join)
+
+Metadados são informações que fornecem uma descrição concisa dos dados no BD
+Por padrão o BD bloqueia a tabela durante um Update
+
+1960 surgiram os SGBD pela IBM e Modelos relacionais em 1970 
+no intuito de diminuir custo pessoas surgindo o SQL
+1980 Oracle 2 / 1990 POO
+2000 - - Redis, MongoDB, Cassandra NoSQL
+
+Modelo Hierárquico - IMS, LInks e dados/ TAD tree- com raiz
+Modelo em rede -  Coadasyl, Links entre nós
+
+o DBA vai criar a regras , definição de tabelas , manipulação
+LDD são comandos especificos para manipulação dos dados 
+
+Storage & Buffer
+O SGBD tem uma atenção especial nessse assunto
+
+DataWarehouses 
+são repositorios centralizados 
+
+Relacionais - Oracle, MySQL, SQL Server
+Não Relacionais- MongoDB orientado a documentos / Redis 
+

@@ -1,0 +1,58 @@
+Introdução ao Desenvolvimento Moderno de Software
+
+Quando receber a demanda precisa ser analisado as soluções e plataforma que será usada no desenvolvimento;
+
+Sistema Desktop 
+são sistemas autônomos que podem ser instalaos no computador por arquivo executável;
+
+Sistema Web
+POde ser acessado remotamente de qualquer lugar sem necessidade de instalação
+
+Aplicação Móvel
+Aplicação desenvolvida para ser instlado em smartphones e tablets
+
+1º Etapa projeto
+
+UX/UI
+UX = User Experience ( analisa quem são as pesoas que vão utilizar esse software, melhorando a uso da aplicação)
+pesquisa, persona, protótipos
+
+UI = User interface (Trabalha o padrão visual para ajudar na experiência do usuário)
+Tipografia, escala de cores
+
+Modelo Cliente - Sevidor
+
+Os código são criados na IDE
+
+Front-end
+programa a parte visual do site ou aplicativo;
+(Html, CSS, Javascript)
+
+Frameworks
+ele são feramentas que trazem soluções já pré definidas, descomplica o trabalho
+ex: Java - Spring boot / JS - Angular ou React
+
+Back-end
+Trata em aplicar as regras do negocio, faz a ponte bentre os dados que vem do navegador ao BD
+Ex; Java, PHP, C# 
+
+Full Stack
+POssui habilidades para front e back 
+
+QA = Quality Assurance
+deve ter conhecimento sobre as atividades do projeto e analisar a qualidade do código, perfil analítico
+
+Infraestrutura
+Todo os hardwares e locais que ficam  os serviços armazenados e funcionando (Servidores) pode ser próprio ou terceiro
+
+Cloud
+Sistemas em Nuvem, armazenamento e dados disponibilizados via internet
+muitas organizações estão optando por esse serviço devido evitar o custo investimento de Infraestrutura
+escabilidade
+performance
+
+Mobile
+Androi- Java e/ou Kotlin -Android studio
+IOS - Swift -  xcode
+Híbrido IONIC, Flutter, React Native 
+
