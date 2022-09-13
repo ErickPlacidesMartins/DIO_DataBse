@@ -33,3 +33,34 @@ são repositorios centralizados
 Relacionais - Oracle, MySQL, SQL Server
 Não Relacionais- MongoDB orientado a documentos / Redis 
 
+
+A Abordagem tradicional de BD possui redundância e Esforço repetido
+
+OS GBD permite o acesso concorrente aos dados e faz abstração, isolamento, multiplas visões, auto decrição
+
+Natureza auto descritiva = SGBD possue o esquema (schema) e possiu uma descrição de sua estrutura e regras bem definida
+Os NoSQL não possui descrição do banco e possui normalmente a descrição dentro do proprio documento
+UM SGBD pode armazenar  mais um de BD desde que possua o mesmo schema
+Isolamento entre programa e dados facilita para manutenção de dados do sistema e não precisa mexer na aplicação
+Na abordagem tradicional  modificação acarreta em modificação de estrutura
+As Table viwes são possiveis por meio das querys trazendo informações de diversas tabelas
+Multiplos acessos para não ahver incoerência  precisa haver o bloc no dados que esta sendo utilizado
+Abordagem OLTP Online transiction process, gerenciador de transações multi usuarios
+realiza a execução sem interferência, isolando a informação 
+Transaction driven
+OLAP Ambiente informativo onde realiza a análise do  dados 
+ETL = pipe line dados
+Atores em SGBD Modelagem, Manutenção e Usabilidade
+Designer = levantar os requisitos e identificar os dados que serão usados
+representa de forma grafica
+DBA = Gerencia os Recursos, Orquestração dos dados e autorizações de acesso
+Usuários finais =  que consome os dados e nem sempre por querys também por APIs
+Os Emg.Software auxliam a crias as API para os atores acessarem os SGBD
+Vantagens SGBD = 
+controle redundância, restrição de uso, prove persistência
+A estrutura normalmente utilizada é modelo arvore
+Backup e recovery
+mutlti usuário, ações com regras , inferência 
+Triggers = gatilhos uma ação aciona outra ação
+Quando não usar o SGBD  custo benefício x custo-overhead
+Acesso Unário, não possui mudanças previstas ex AutoCad
